@@ -1,0 +1,59 @@
+body {
+    font-family: fantasy;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+
+.player {
+    background: #111;
+    padding: 3vw;
+    border-radius: 1.5vw;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 70vh;
+    width: 30vw;
+}
+
+#song-title {
+    margin-top: -1vw;
+    font-size: 4vw;
+    font-weight: 300;
+    letter-spacing: 0.2vw;
+    font-style: italic;
+}
+
+.controls button {
+    font-size: 1.4vw;
+    padding: 1vw 1.5vw;
+    margin: 1vw;
+    border: none;
+    border-radius: 2vw;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background-color: #333;
+}
+
+img {
+    border-radius: 2vw;
+    width: 15vw;
+    margin-bottom: 2vw;
+}
+
+#stop-btn{
+    display: none;
+}
+
+#progress-slider{
+    width: 100%;
+    accent-color: red;
+}
